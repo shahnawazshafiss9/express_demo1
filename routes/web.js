@@ -6,6 +6,7 @@ import { aboutController } from '../controllers/aboutController.js';
 router.get('/', homeController);
 router.get('/about', aboutController);
 
+
 export default router;
 
 

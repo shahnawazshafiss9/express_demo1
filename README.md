@@ -16,3 +16,7 @@
 `` middleware ``
 `` views ``
 
+## generate crypto key
+
+``node ``
+``require('crypto').randomBytes(64).toString('hex') ``
