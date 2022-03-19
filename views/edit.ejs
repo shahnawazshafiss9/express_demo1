@@ -1,0 +1,30 @@
+<%- include('./partials/header.ejs') %>
+<div class="container mt-5">
+    <h1 class="text-success">Home Page</h1>
+   <div class="row">
+    <div class="col-md-6"> 
+     <h2 class="alert alert-success text-center">Edit New User</h2>
+     <form method="post" action="/user/update/<%= user._id %>">
+        <div class="mb-3">
+            <label for="name" class="form-lebel">Name</label>
+            <input type="text" class="form-control" id="name" name="name" value="<%= user.name %>" />
+        </div>
+        <div class="mb-3">
+           <label for="email" class="form-lebel">Email</label>
+           <input type="email" class="form-control" id="email" name="email" value="<%= user.email %>" />
+       </div>
+       <div class="mb-3">
+         <label for="age" class="form-lebel">Age</label>
+         <input type="text" class="form-control" id="age" name="age" value="<%= user.age %>" />
+     </div>
+       <div class="mb-3">
+           <label for="fees" class="form-lebel">Fees</label>
+           <input type="text" class="form-control" id="fees" name="fees" value="<%= user.fees %>" />
+       </div>
+       <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+    </div>   
+      </div>
+    </div>
+</div>
+<%- include('./partials/footer.ejs') %>

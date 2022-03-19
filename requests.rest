@@ -1,5 +1,5 @@
 GET http://localhost:3000/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDU5ODExMDcsImV4cCI6MTY0NTk4MTEyN30.Cy9zPgOOJFEd4KB39tJ2xvU5hSRnGpCDAMQeOWeaBpQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hhaG5hd2F6IiwiaWF0IjoxNjQ1OTgwMDY5LCJleHAiOjE2NDU5ODAwODl9.eWyWc5zXhbrKUuYvZ2_5R8qQjNWGQy0l-JVe88cSeLE
 
 ###
 DELETE http://localhost:4000/logout Content-Type: application/json

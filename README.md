@@ -20,3 +20,16 @@
 
 ``node ``
 ``require('crypto').randomBytes(64).toString('hex') ``
+
+## install mongoose
+`` make dir for DB``
+## install cookie-parser
+`npm i cookie-parser`
+## install express-session
+`npm i express-session`
+
+## install connect-mongo
+`npm i connect-mongo`
+
+## install bcrypt
+`npm i bcrypt`
